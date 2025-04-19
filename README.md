@@ -1,4 +1,6 @@
 # COVID-19 Impact on US Real Estate Market
+![ChatGPT Image Apr 19, 2025, 10_50_19 AM](https://github.com/user-attachments/assets/af33e00f-7afd-4987-a063-ec6440628cb3)
+
 
 This project analyzes how the COVID-19 pandemic impacted the US real estate market, focusing on changes in both **home values** and **rent values** from **March 2020 to September 2022**, compared with a similar 5-year pre-pandemic period (**March 2015 to December 2019**).
 
