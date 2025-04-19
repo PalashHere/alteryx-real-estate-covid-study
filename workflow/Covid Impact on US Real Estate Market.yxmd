@@ -1,0 +1,2207 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2024.1" RunE2="T">
+  <Nodes>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Home+Values.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="RegionID" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="SizeRank" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="RegionName" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="RegionType" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="StateName" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="1/31/2000" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="2/29/2000" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="3/31/2000" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="4/30/2000" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="5/31/2000" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="6/30/2000" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="7/31/2000" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="8/31/2000" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="9/30/2000" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="10/31/2000" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="11/30/2000" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="12/31/2000" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="1/31/2001" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="2/28/2001" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="3/31/2001" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="4/30/2001" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="5/31/2001" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="6/30/2001" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="7/31/2001" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="8/31/2001" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="9/30/2001" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="10/31/2001" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="11/30/2001" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="12/31/2001" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="1/31/2002" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="2/28/2002" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="3/31/2002" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="4/30/2002" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="5/31/2002" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="6/30/2002" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="7/31/2002" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="8/31/2002" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="9/30/2002" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="10/31/2002" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="11/30/2002" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="12/31/2002" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="1/31/2003" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="2/28/2003" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="3/31/2003" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="4/30/2003" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="5/31/2003" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="6/30/2003" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="7/31/2003" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="8/31/2003" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="9/30/2003" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="10/31/2003" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="11/30/2003" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="12/31/2003" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="1/31/2004" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="2/29/2004" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="3/31/2004" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="4/30/2004" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="5/31/2004" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="6/30/2004" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="7/31/2004" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="8/31/2004" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="9/30/2004" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="10/31/2004" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="11/30/2004" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="12/31/2004" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="1/31/2005" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="2/28/2005" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="3/31/2005" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="4/30/2005" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="5/31/2005" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="6/30/2005" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="7/31/2005" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="8/31/2005" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="9/30/2005" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="10/31/2005" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="11/30/2005" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="12/31/2005" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="1/31/2006" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="2/28/2006" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="3/31/2006" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="4/30/2006" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="5/31/2006" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="6/30/2006" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="7/31/2006" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="8/31/2006" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="9/30/2006" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="10/31/2006" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="11/30/2006" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="12/31/2006" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="1/31/2007" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="2/28/2007" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="3/31/2007" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="4/30/2007" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="5/31/2007" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="6/30/2007" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="7/31/2007" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="8/31/2007" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="9/30/2007" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="10/31/2007" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="11/30/2007" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="12/31/2007" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="1/31/2008" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="2/29/2008" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="3/31/2008" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="4/30/2008" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="5/31/2008" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="6/30/2008" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="7/31/2008" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="8/31/2008" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="9/30/2008" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="10/31/2008" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="11/30/2008" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="12/31/2008" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="1/31/2009" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="2/28/2009" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="3/31/2009" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="4/30/2009" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="5/31/2009" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="6/30/2009" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="7/31/2009" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="8/31/2009" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="9/30/2009" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="10/31/2009" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="11/30/2009" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="12/31/2009" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="1/31/2010" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="2/28/2010" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="3/31/2010" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="4/30/2010" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="5/31/2010" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="6/30/2010" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="7/31/2010" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="8/31/2010" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="9/30/2010" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="10/31/2010" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="11/30/2010" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="12/31/2010" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="1/31/2011" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="2/28/2011" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="3/31/2011" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="4/30/2011" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="5/31/2011" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="6/30/2011" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="7/31/2011" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="8/31/2011" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="9/30/2011" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="10/31/2011" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="11/30/2011" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="12/31/2011" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="1/31/2012" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="2/29/2012" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="3/31/2012" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="4/30/2012" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="5/31/2012" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="6/30/2012" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="7/31/2012" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="8/31/2012" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="9/30/2012" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="10/31/2012" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="11/30/2012" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="12/31/2012" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="1/31/2013" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="2/28/2013" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="3/31/2013" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="4/30/2013" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="5/31/2013" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="6/30/2013" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="7/31/2013" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="8/31/2013" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="9/30/2013" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="10/31/2013" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="11/30/2013" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="12/31/2013" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="1/31/2014" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="2/28/2014" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="3/31/2014" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="4/30/2014" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="5/31/2014" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="6/30/2014" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="7/31/2014" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="8/31/2014" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="9/30/2014" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="10/31/2014" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="11/30/2014" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="12/31/2014" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="1/31/2015" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="2/28/2015" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="3/31/2015" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="4/30/2015" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="5/31/2015" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="6/30/2015" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="7/31/2015" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="8/31/2015" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="9/30/2015" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="10/31/2015" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="11/30/2015" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="12/31/2015" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="1/31/2016" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="2/29/2016" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="3/31/2016" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="4/30/2016" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="5/31/2016" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="6/30/2016" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="7/31/2016" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="8/31/2016" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="9/30/2016" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="10/31/2016" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="11/30/2016" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="12/31/2016" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="1/31/2017" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="2/28/2017" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="3/31/2017" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="4/30/2017" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="5/31/2017" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="6/30/2017" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="7/31/2017" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="8/31/2017" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="9/30/2017" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="10/31/2017" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="11/30/2017" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="12/31/2017" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="1/31/2018" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="2/28/2018" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="3/31/2018" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="4/30/2018" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="5/31/2018" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="6/30/2018" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="7/31/2018" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="8/31/2018" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="9/30/2018" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="10/31/2018" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="11/30/2018" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="12/31/2018" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="1/31/2019" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="2/28/2019" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="3/31/2019" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="4/30/2019" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="5/31/2019" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="6/30/2019" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="7/31/2019" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="8/31/2019" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="9/30/2019" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="10/31/2019" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="11/30/2019" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="12/31/2019" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="1/31/2020" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="2/29/2020" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="3/31/2020" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="4/30/2020" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="5/31/2020" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="6/30/2020" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="7/31/2020" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="8/31/2020" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="9/30/2020" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="10/31/2020" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="11/30/2020" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="12/31/2020" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="1/31/2021" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="2/28/2021" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="3/31/2021" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="4/30/2021" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="5/31/2021" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="6/30/2021" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="7/31/2021" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="8/31/2021" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="9/30/2021" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="10/31/2021" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="11/30/2021" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="12/31/2021" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="1/31/2022" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="2/28/2022" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="3/31/2022" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="4/30/2022" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="5/31/2022" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="6/30/2022" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="7/31/2022" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="8/31/2022" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="9/30/2022" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="10/31/2022" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="11/30/2022" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+            <Field name="12/31/2022" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Home+Values.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Rent+Values.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="RegionID" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="SizeRank" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="RegionName" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="RegionType" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="StateName" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="3/31/2015" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="4/30/2015" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="5/31/2015" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="6/30/2015" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="7/31/2015" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="8/31/2015" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="9/30/2015" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="10/31/2015" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="11/30/2015" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="12/31/2015" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="1/31/2016" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="2/29/2016" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="3/31/2016" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="4/30/2016" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="5/31/2016" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="6/30/2016" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="7/31/2016" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="8/31/2016" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="9/30/2016" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="10/31/2016" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="11/30/2016" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="12/31/2016" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="1/31/2017" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="2/28/2017" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="3/31/2017" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="4/30/2017" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="5/31/2017" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="6/30/2017" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="7/31/2017" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="8/31/2017" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="9/30/2017" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="10/31/2017" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="11/30/2017" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="12/31/2017" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="1/31/2018" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="2/28/2018" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="3/31/2018" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="4/30/2018" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="5/31/2018" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="6/30/2018" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="7/31/2018" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="8/31/2018" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="9/30/2018" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="10/31/2018" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="11/30/2018" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="12/31/2018" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="1/31/2019" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="2/28/2019" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="3/31/2019" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="4/30/2019" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="5/31/2019" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="6/30/2019" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="7/31/2019" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="8/31/2019" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="9/30/2019" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="10/31/2019" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="11/30/2019" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="12/31/2019" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="1/31/2020" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="2/29/2020" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="3/31/2020" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="4/30/2020" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="5/31/2020" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="6/30/2020" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="7/31/2020" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="8/31/2020" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="9/30/2020" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="10/31/2020" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="11/30/2020" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="12/31/2020" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="1/31/2021" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="2/28/2021" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="3/31/2021" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="4/30/2021" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="5/31/2021" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="6/30/2021" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="7/31/2021" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="8/31/2021" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="9/30/2021" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="10/31/2021" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="11/30/2021" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="12/31/2021" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="1/31/2022" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="2/28/2022" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="3/31/2022" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="4/30/2022" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="5/31/2022" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="6/30/2022" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="7/31/2022" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="8/31/2022" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="9/30/2022" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="10/31/2022" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="11/30/2022" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+            <Field name="12/31/2022" size="254" source="File: C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Rent+Values.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="162" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>IsNotNull</Operator>
+            <Field>StateName</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2024-09-04 02:21:47</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2024-09-04 02:21:47</StartDate>
+              <EndDate>2024-09-04 02:21:47</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!IsNull([StateName])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="174" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>IsNotNull</Operator>
+            <Field>StateName</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2024-09-04 02:21:55</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2024-09-04 02:21:55</StartDate>
+              <EndDate>2024-09-04 02:21:55</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!IsNull([StateName])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+        <Position x="258" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ErrorWarn>Warn</ErrorWarn>
+          <KeyFields>
+            <Field field="RegionID" />
+            <Field field="RegionName" />
+          </KeyFields>
+          <DataFields>
+            <Field field="RegionID" selected="False" />
+            <Field field="SizeRank" selected="False" />
+            <Field field="RegionName" selected="False" />
+            <Field field="RegionType" selected="False" />
+            <Field field="StateName" selected="False" />
+            <Field field="1/31/2000" selected="True" />
+            <Field field="2/29/2000" selected="True" />
+            <Field field="3/31/2000" selected="True" />
+            <Field field="4/30/2000" selected="True" />
+            <Field field="5/31/2000" selected="True" />
+            <Field field="6/30/2000" selected="True" />
+            <Field field="7/31/2000" selected="True" />
+            <Field field="8/31/2000" selected="True" />
+            <Field field="9/30/2000" selected="True" />
+            <Field field="10/31/2000" selected="True" />
+            <Field field="11/30/2000" selected="True" />
+            <Field field="12/31/2000" selected="True" />
+            <Field field="1/31/2001" selected="True" />
+            <Field field="2/28/2001" selected="True" />
+            <Field field="3/31/2001" selected="True" />
+            <Field field="4/30/2001" selected="True" />
+            <Field field="5/31/2001" selected="True" />
+            <Field field="6/30/2001" selected="True" />
+            <Field field="7/31/2001" selected="True" />
+            <Field field="8/31/2001" selected="True" />
+            <Field field="9/30/2001" selected="True" />
+            <Field field="10/31/2001" selected="True" />
+            <Field field="11/30/2001" selected="True" />
+            <Field field="12/31/2001" selected="True" />
+            <Field field="1/31/2002" selected="True" />
+            <Field field="2/28/2002" selected="True" />
+            <Field field="3/31/2002" selected="True" />
+            <Field field="4/30/2002" selected="True" />
+            <Field field="5/31/2002" selected="True" />
+            <Field field="6/30/2002" selected="True" />
+            <Field field="7/31/2002" selected="True" />
+            <Field field="8/31/2002" selected="True" />
+            <Field field="9/30/2002" selected="True" />
+            <Field field="10/31/2002" selected="True" />
+            <Field field="11/30/2002" selected="True" />
+            <Field field="12/31/2002" selected="True" />
+            <Field field="1/31/2003" selected="True" />
+            <Field field="2/28/2003" selected="True" />
+            <Field field="3/31/2003" selected="True" />
+            <Field field="4/30/2003" selected="True" />
+            <Field field="5/31/2003" selected="True" />
+            <Field field="6/30/2003" selected="True" />
+            <Field field="7/31/2003" selected="True" />
+            <Field field="8/31/2003" selected="True" />
+            <Field field="9/30/2003" selected="True" />
+            <Field field="10/31/2003" selected="True" />
+            <Field field="11/30/2003" selected="True" />
+            <Field field="12/31/2003" selected="True" />
+            <Field field="1/31/2004" selected="True" />
+            <Field field="2/29/2004" selected="True" />
+            <Field field="3/31/2004" selected="True" />
+            <Field field="4/30/2004" selected="True" />
+            <Field field="5/31/2004" selected="True" />
+            <Field field="6/30/2004" selected="True" />
+            <Field field="7/31/2004" selected="True" />
+            <Field field="8/31/2004" selected="True" />
+            <Field field="9/30/2004" selected="True" />
+            <Field field="10/31/2004" selected="True" />
+            <Field field="11/30/2004" selected="True" />
+            <Field field="12/31/2004" selected="True" />
+            <Field field="1/31/2005" selected="True" />
+            <Field field="2/28/2005" selected="True" />
+            <Field field="3/31/2005" selected="True" />
+            <Field field="4/30/2005" selected="True" />
+            <Field field="5/31/2005" selected="True" />
+            <Field field="6/30/2005" selected="True" />
+            <Field field="7/31/2005" selected="True" />
+            <Field field="8/31/2005" selected="True" />
+            <Field field="9/30/2005" selected="True" />
+            <Field field="10/31/2005" selected="True" />
+            <Field field="11/30/2005" selected="True" />
+            <Field field="12/31/2005" selected="True" />
+            <Field field="1/31/2006" selected="True" />
+            <Field field="2/28/2006" selected="True" />
+            <Field field="3/31/2006" selected="True" />
+            <Field field="4/30/2006" selected="True" />
+            <Field field="5/31/2006" selected="True" />
+            <Field field="6/30/2006" selected="True" />
+            <Field field="7/31/2006" selected="True" />
+            <Field field="8/31/2006" selected="True" />
+            <Field field="9/30/2006" selected="True" />
+            <Field field="10/31/2006" selected="True" />
+            <Field field="11/30/2006" selected="True" />
+            <Field field="12/31/2006" selected="True" />
+            <Field field="1/31/2007" selected="True" />
+            <Field field="2/28/2007" selected="True" />
+            <Field field="3/31/2007" selected="True" />
+            <Field field="4/30/2007" selected="True" />
+            <Field field="5/31/2007" selected="True" />
+            <Field field="6/30/2007" selected="True" />
+            <Field field="7/31/2007" selected="True" />
+            <Field field="8/31/2007" selected="True" />
+            <Field field="9/30/2007" selected="True" />
+            <Field field="10/31/2007" selected="True" />
+            <Field field="11/30/2007" selected="True" />
+            <Field field="12/31/2007" selected="True" />
+            <Field field="1/31/2008" selected="True" />
+            <Field field="2/29/2008" selected="True" />
+            <Field field="3/31/2008" selected="True" />
+            <Field field="4/30/2008" selected="True" />
+            <Field field="5/31/2008" selected="True" />
+            <Field field="6/30/2008" selected="True" />
+            <Field field="7/31/2008" selected="True" />
+            <Field field="8/31/2008" selected="True" />
+            <Field field="9/30/2008" selected="True" />
+            <Field field="10/31/2008" selected="True" />
+            <Field field="11/30/2008" selected="True" />
+            <Field field="12/31/2008" selected="True" />
+            <Field field="1/31/2009" selected="True" />
+            <Field field="2/28/2009" selected="True" />
+            <Field field="3/31/2009" selected="True" />
+            <Field field="4/30/2009" selected="True" />
+            <Field field="5/31/2009" selected="True" />
+            <Field field="6/30/2009" selected="True" />
+            <Field field="7/31/2009" selected="True" />
+            <Field field="8/31/2009" selected="True" />
+            <Field field="9/30/2009" selected="True" />
+            <Field field="10/31/2009" selected="True" />
+            <Field field="11/30/2009" selected="True" />
+            <Field field="12/31/2009" selected="True" />
+            <Field field="1/31/2010" selected="True" />
+            <Field field="2/28/2010" selected="True" />
+            <Field field="3/31/2010" selected="True" />
+            <Field field="4/30/2010" selected="True" />
+            <Field field="5/31/2010" selected="True" />
+            <Field field="6/30/2010" selected="True" />
+            <Field field="7/31/2010" selected="True" />
+            <Field field="8/31/2010" selected="True" />
+            <Field field="9/30/2010" selected="True" />
+            <Field field="10/31/2010" selected="True" />
+            <Field field="11/30/2010" selected="True" />
+            <Field field="12/31/2010" selected="True" />
+            <Field field="1/31/2011" selected="True" />
+            <Field field="2/28/2011" selected="True" />
+            <Field field="3/31/2011" selected="True" />
+            <Field field="4/30/2011" selected="True" />
+            <Field field="5/31/2011" selected="True" />
+            <Field field="6/30/2011" selected="True" />
+            <Field field="7/31/2011" selected="True" />
+            <Field field="8/31/2011" selected="True" />
+            <Field field="9/30/2011" selected="True" />
+            <Field field="10/31/2011" selected="True" />
+            <Field field="11/30/2011" selected="True" />
+            <Field field="12/31/2011" selected="True" />
+            <Field field="1/31/2012" selected="True" />
+            <Field field="2/29/2012" selected="True" />
+            <Field field="3/31/2012" selected="True" />
+            <Field field="4/30/2012" selected="True" />
+            <Field field="5/31/2012" selected="True" />
+            <Field field="6/30/2012" selected="True" />
+            <Field field="7/31/2012" selected="True" />
+            <Field field="8/31/2012" selected="True" />
+            <Field field="9/30/2012" selected="True" />
+            <Field field="10/31/2012" selected="True" />
+            <Field field="11/30/2012" selected="True" />
+            <Field field="12/31/2012" selected="True" />
+            <Field field="1/31/2013" selected="True" />
+            <Field field="2/28/2013" selected="True" />
+            <Field field="3/31/2013" selected="True" />
+            <Field field="4/30/2013" selected="True" />
+            <Field field="5/31/2013" selected="True" />
+            <Field field="6/30/2013" selected="True" />
+            <Field field="7/31/2013" selected="True" />
+            <Field field="8/31/2013" selected="True" />
+            <Field field="9/30/2013" selected="True" />
+            <Field field="10/31/2013" selected="True" />
+            <Field field="11/30/2013" selected="True" />
+            <Field field="12/31/2013" selected="True" />
+            <Field field="1/31/2014" selected="True" />
+            <Field field="2/28/2014" selected="True" />
+            <Field field="3/31/2014" selected="True" />
+            <Field field="4/30/2014" selected="True" />
+            <Field field="5/31/2014" selected="True" />
+            <Field field="6/30/2014" selected="True" />
+            <Field field="7/31/2014" selected="True" />
+            <Field field="8/31/2014" selected="True" />
+            <Field field="9/30/2014" selected="True" />
+            <Field field="10/31/2014" selected="True" />
+            <Field field="11/30/2014" selected="True" />
+            <Field field="12/31/2014" selected="True" />
+            <Field field="1/31/2015" selected="True" />
+            <Field field="2/28/2015" selected="True" />
+            <Field field="3/31/2015" selected="True" />
+            <Field field="4/30/2015" selected="True" />
+            <Field field="5/31/2015" selected="True" />
+            <Field field="6/30/2015" selected="True" />
+            <Field field="7/31/2015" selected="True" />
+            <Field field="8/31/2015" selected="True" />
+            <Field field="9/30/2015" selected="True" />
+            <Field field="10/31/2015" selected="True" />
+            <Field field="11/30/2015" selected="True" />
+            <Field field="12/31/2015" selected="True" />
+            <Field field="1/31/2016" selected="True" />
+            <Field field="2/29/2016" selected="True" />
+            <Field field="3/31/2016" selected="True" />
+            <Field field="4/30/2016" selected="True" />
+            <Field field="5/31/2016" selected="True" />
+            <Field field="6/30/2016" selected="True" />
+            <Field field="7/31/2016" selected="True" />
+            <Field field="8/31/2016" selected="True" />
+            <Field field="9/30/2016" selected="True" />
+            <Field field="10/31/2016" selected="True" />
+            <Field field="11/30/2016" selected="True" />
+            <Field field="12/31/2016" selected="True" />
+            <Field field="1/31/2017" selected="True" />
+            <Field field="2/28/2017" selected="True" />
+            <Field field="3/31/2017" selected="True" />
+            <Field field="4/30/2017" selected="True" />
+            <Field field="5/31/2017" selected="True" />
+            <Field field="6/30/2017" selected="True" />
+            <Field field="7/31/2017" selected="True" />
+            <Field field="8/31/2017" selected="True" />
+            <Field field="9/30/2017" selected="True" />
+            <Field field="10/31/2017" selected="True" />
+            <Field field="11/30/2017" selected="True" />
+            <Field field="12/31/2017" selected="True" />
+            <Field field="1/31/2018" selected="True" />
+            <Field field="2/28/2018" selected="True" />
+            <Field field="3/31/2018" selected="True" />
+            <Field field="4/30/2018" selected="True" />
+            <Field field="5/31/2018" selected="True" />
+            <Field field="6/30/2018" selected="True" />
+            <Field field="7/31/2018" selected="True" />
+            <Field field="8/31/2018" selected="True" />
+            <Field field="9/30/2018" selected="True" />
+            <Field field="10/31/2018" selected="True" />
+            <Field field="11/30/2018" selected="True" />
+            <Field field="12/31/2018" selected="True" />
+            <Field field="1/31/2019" selected="True" />
+            <Field field="2/28/2019" selected="True" />
+            <Field field="3/31/2019" selected="True" />
+            <Field field="4/30/2019" selected="True" />
+            <Field field="5/31/2019" selected="True" />
+            <Field field="6/30/2019" selected="True" />
+            <Field field="7/31/2019" selected="True" />
+            <Field field="8/31/2019" selected="True" />
+            <Field field="9/30/2019" selected="True" />
+            <Field field="10/31/2019" selected="True" />
+            <Field field="11/30/2019" selected="True" />
+            <Field field="12/31/2019" selected="True" />
+            <Field field="1/31/2020" selected="True" />
+            <Field field="2/29/2020" selected="True" />
+            <Field field="3/31/2020" selected="True" />
+            <Field field="4/30/2020" selected="True" />
+            <Field field="5/31/2020" selected="True" />
+            <Field field="6/30/2020" selected="True" />
+            <Field field="7/31/2020" selected="True" />
+            <Field field="8/31/2020" selected="True" />
+            <Field field="9/30/2020" selected="True" />
+            <Field field="10/31/2020" selected="True" />
+            <Field field="11/30/2020" selected="True" />
+            <Field field="12/31/2020" selected="True" />
+            <Field field="1/31/2021" selected="True" />
+            <Field field="2/28/2021" selected="True" />
+            <Field field="3/31/2021" selected="True" />
+            <Field field="4/30/2021" selected="True" />
+            <Field field="5/31/2021" selected="True" />
+            <Field field="6/30/2021" selected="True" />
+            <Field field="7/31/2021" selected="True" />
+            <Field field="8/31/2021" selected="True" />
+            <Field field="9/30/2021" selected="True" />
+            <Field field="10/31/2021" selected="True" />
+            <Field field="11/30/2021" selected="True" />
+            <Field field="12/31/2021" selected="True" />
+            <Field field="1/31/2022" selected="True" />
+            <Field field="2/28/2022" selected="True" />
+            <Field field="3/31/2022" selected="True" />
+            <Field field="4/30/2022" selected="True" />
+            <Field field="5/31/2022" selected="True" />
+            <Field field="6/30/2022" selected="True" />
+            <Field field="7/31/2022" selected="True" />
+            <Field field="8/31/2022" selected="True" />
+            <Field field="9/30/2022" selected="True" />
+            <Field field="10/31/2022" selected="True" />
+            <Field field="11/30/2022" selected="True" />
+            <Field field="12/31/2022" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </DataFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+        <Position x="258" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ErrorWarn>Warn</ErrorWarn>
+          <KeyFields>
+            <Field field="RegionID" />
+            <Field field="RegionName" />
+          </KeyFields>
+          <DataFields>
+            <Field field="RegionID" selected="False" />
+            <Field field="SizeRank" selected="False" />
+            <Field field="RegionName" selected="False" />
+            <Field field="RegionType" selected="False" />
+            <Field field="StateName" selected="False" />
+            <Field field="3/31/2015" selected="True" />
+            <Field field="4/30/2015" selected="True" />
+            <Field field="5/31/2015" selected="True" />
+            <Field field="6/30/2015" selected="True" />
+            <Field field="7/31/2015" selected="True" />
+            <Field field="8/31/2015" selected="True" />
+            <Field field="9/30/2015" selected="True" />
+            <Field field="10/31/2015" selected="True" />
+            <Field field="11/30/2015" selected="True" />
+            <Field field="12/31/2015" selected="True" />
+            <Field field="1/31/2016" selected="True" />
+            <Field field="2/29/2016" selected="True" />
+            <Field field="3/31/2016" selected="True" />
+            <Field field="4/30/2016" selected="True" />
+            <Field field="5/31/2016" selected="True" />
+            <Field field="6/30/2016" selected="True" />
+            <Field field="7/31/2016" selected="True" />
+            <Field field="8/31/2016" selected="True" />
+            <Field field="9/30/2016" selected="True" />
+            <Field field="10/31/2016" selected="True" />
+            <Field field="11/30/2016" selected="True" />
+            <Field field="12/31/2016" selected="True" />
+            <Field field="1/31/2017" selected="True" />
+            <Field field="2/28/2017" selected="True" />
+            <Field field="3/31/2017" selected="True" />
+            <Field field="4/30/2017" selected="True" />
+            <Field field="5/31/2017" selected="True" />
+            <Field field="6/30/2017" selected="True" />
+            <Field field="7/31/2017" selected="True" />
+            <Field field="8/31/2017" selected="True" />
+            <Field field="9/30/2017" selected="True" />
+            <Field field="10/31/2017" selected="True" />
+            <Field field="11/30/2017" selected="True" />
+            <Field field="12/31/2017" selected="True" />
+            <Field field="1/31/2018" selected="True" />
+            <Field field="2/28/2018" selected="True" />
+            <Field field="3/31/2018" selected="True" />
+            <Field field="4/30/2018" selected="True" />
+            <Field field="5/31/2018" selected="True" />
+            <Field field="6/30/2018" selected="True" />
+            <Field field="7/31/2018" selected="True" />
+            <Field field="8/31/2018" selected="True" />
+            <Field field="9/30/2018" selected="True" />
+            <Field field="10/31/2018" selected="True" />
+            <Field field="11/30/2018" selected="True" />
+            <Field field="12/31/2018" selected="True" />
+            <Field field="1/31/2019" selected="True" />
+            <Field field="2/28/2019" selected="True" />
+            <Field field="3/31/2019" selected="True" />
+            <Field field="4/30/2019" selected="True" />
+            <Field field="5/31/2019" selected="True" />
+            <Field field="6/30/2019" selected="True" />
+            <Field field="7/31/2019" selected="True" />
+            <Field field="8/31/2019" selected="True" />
+            <Field field="9/30/2019" selected="True" />
+            <Field field="10/31/2019" selected="True" />
+            <Field field="11/30/2019" selected="True" />
+            <Field field="12/31/2019" selected="True" />
+            <Field field="1/31/2020" selected="True" />
+            <Field field="2/29/2020" selected="True" />
+            <Field field="3/31/2020" selected="True" />
+            <Field field="4/30/2020" selected="True" />
+            <Field field="5/31/2020" selected="True" />
+            <Field field="6/30/2020" selected="True" />
+            <Field field="7/31/2020" selected="True" />
+            <Field field="8/31/2020" selected="True" />
+            <Field field="9/30/2020" selected="True" />
+            <Field field="10/31/2020" selected="True" />
+            <Field field="11/30/2020" selected="True" />
+            <Field field="12/31/2020" selected="True" />
+            <Field field="1/31/2021" selected="True" />
+            <Field field="2/28/2021" selected="True" />
+            <Field field="3/31/2021" selected="True" />
+            <Field field="4/30/2021" selected="True" />
+            <Field field="5/31/2021" selected="True" />
+            <Field field="6/30/2021" selected="True" />
+            <Field field="7/31/2021" selected="True" />
+            <Field field="8/31/2021" selected="True" />
+            <Field field="9/30/2021" selected="True" />
+            <Field field="10/31/2021" selected="True" />
+            <Field field="11/30/2021" selected="True" />
+            <Field field="12/31/2021" selected="True" />
+            <Field field="1/31/2022" selected="True" />
+            <Field field="2/28/2022" selected="True" />
+            <Field field="3/31/2022" selected="True" />
+            <Field field="4/30/2022" selected="True" />
+            <Field field="5/31/2022" selected="True" />
+            <Field field="6/30/2022" selected="True" />
+            <Field field="7/31/2022" selected="True" />
+            <Field field="8/31/2022" selected="True" />
+            <Field field="9/30/2022" selected="True" />
+            <Field field="10/31/2022" selected="True" />
+            <Field field="11/30/2022" selected="True" />
+            <Field field="12/31/2022" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </DataFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="318" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="RegionID" />
+            <Field field="Name" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="RegionID" />
+            <Field field="Name" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_Name" selected="True" rename="Month" input="Left_" />
+                <SelectField field="Left_Value" selected="True" rename="Avg Home Value" input="Left_" type="Double" size="8" />
+                <SelectField field="Right_RegionID" selected="False" rename="Right_RegionID" input="Right_" />
+                <SelectField field="Right_RegionName" selected="False" rename="Right_RegionName" input="Right_" />
+                <SelectField field="Right_Name" selected="False" rename="Right_Name" input="Right_" />
+                <SelectField field="Right_Value" selected="True" rename="Avg Rent Value" input="Right_" type="Double" size="8" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="402" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>!IsNull([Avg Rent Value]) AND !IsNull([Avg Home Value])</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!IsNull([Avg Rent Value]) AND !IsNull([Avg Home Value])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1266" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="RegionID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="RegionID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_Home Value % change" selected="False" input="Left_" />
+                <SelectField field="Left_Rent Value % Change" selected="False" input="Left_" />
+                <SelectField field="Left_Covid Impact Delta" selected="True" input="Left_" type="Double" size="8" />
+                <SelectField field="Right_RegionID" selected="False" rename="Right_RegionID" input="Right_" />
+                <SelectField field="Right_RegionName" selected="False" rename="Right_RegionName" input="Right_" />
+                <SelectField field="Right_Home Value % change" selected="False" rename="Right_Home Value % change" input="Right_" />
+                <SelectField field="Right_Rent Value % Change" selected="False" rename="Right_Rent Value % Change" input="Right_" />
+                <SelectField field="Right_5 year prior Impact Delta" selected="True" input="Right_" type="Double" size="8" />
+                <SelectField field="Right_5 year Impact Delta" selected="True" input="Right_" type="Double" size="8" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="1350" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="Covid Impact Delta" order="Descending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Covid Impact Delta - Descending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings>
+        <Position x="1434" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Ranges">1-15</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="SelectRecords.yxmc" />
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="PlotlyCharting">
+        <Position x="1554" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ChartingFields>
+            <Traces>
+              <type>bar</type>
+              <mode>lines</mode>
+              <name>Covid 19&amp;nbsp;impact</name>
+              <stackgroup>1</stackgroup>
+              <orientation>v</orientation>
+              <xsrc>RegionName</xsrc>
+              <ysrc>Covid Impact Delta</ysrc>
+              <textposition>None</textposition>
+              <marker>
+                <line>
+                  <width>0</width>
+                </line>
+              </marker>
+            </Traces>
+            <Traces>
+              <orientation>v</orientation>
+              <type>bar</type>
+              <name>5 years prior&amp;nbsp;</name>
+              <xsrc>RegionName</xsrc>
+              <ysrc>5 year prior Impact Delta</ysrc>
+              <textposition>None</textposition>
+              <marker>
+                <line>
+                  <width>0</width>
+                </line>
+              </marker>
+            </Traces>
+            <Layout>
+              <title>
+                <text>
+                </text>
+              </title>
+              <font>
+                <family>sans-serif</family>
+                <size>12</size>
+              </font>
+              <autosize>false</autosize>
+              <width>1000</width>
+              <height>849</height>
+              <showlegend>true</showlegend>
+              <hovermode>closest</hovermode>
+              <xaxis>
+                <range>-3.064722097306408</range>
+                <range>19.038696264206546</range>
+                <autorange>false</autorange>
+                <title>
+                  <text>Region Name</text>
+                </title>
+                <type>category</type>
+                <tickfont>
+                  <size>12</size>
+                </tickfont>
+                <nticks>0</nticks>
+              </xaxis>
+              <yaxis>
+                <range>-28.412019232737258</range>
+                <range>58.802652491759787</range>
+                <autorange>false</autorange>
+                <title>
+                  <text>Covid Impact Delta</text>
+                </title>
+                <type>linear</type>
+              </yaxis>
+              <margin>
+                <pad>0</pad>
+                <t>100</t>
+                <b>80</b>
+                <l>80</l>
+                <r>80</r>
+              </margin>
+              <legend>
+                <font>
+                  <size>12</size>
+                </font>
+                <borderwidth>0</borderwidth>
+              </legend>
+            </Layout>
+          </ChartingFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="ComposerInteractiveCharting" />
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings>
+        <Position x="1542" y="546" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Ranges">1</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="SelectRecords.yxmc" />
+    </Node>
+    <Node ToolID="41">
+      <GuiSettings Plugin="PortfolioPluginsGui.ComposerText.PortfolioComposerText">
+        <Position x="1626" y="546" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Images />
+          <Output>Text</Output>
+          <HeaderMode value="False" />
+          <RawMode value="False" />
+          <ValidatePCXML value="True" />
+          <Message />
+          <RichTextMode value="True" />
+          <RichTextString><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+\viewkind4\uc1\pard\qc\b\fs24 Region with highest Covid Impact\par
+\b0\line\pard Region ID - [RegionID:A]\par
+Region Name - [RegionName:A]\par
+Covid impact Delta - [Covid Impact Delta:A]%\par
+5 year prior delta - [5 year prior Impact Delta:A]%\par
+}
+]]></RichTextString>
+          <Styles>
+            <Style Name="TextStyle" />
+          </Styles>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Region with highest Covid Impa...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="AlteryxPortfolioComposerTextPlugin" />
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1722" y="546" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\PALASH\AppData\Local\Temp\Alteryx\Engine_30576_7dfbe43cf3a74e729c19ef1bcc13dcff_\Engine_30576_ee92ae3fb9a3e4438c015aec7630a31e~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings Plugin="PortfolioPluginsGui.ComposerTable.PortfolioComposerTable">
+        <Position x="1566" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TableMode>Basic</TableMode>
+          <GroupingFields orderChanged="False" />
+          <Width>100%</Width>
+          <ShowHeader value="True" />
+          <ShowBarGraph value="False" />
+          <TableFields orderChanged="False">
+            <Field name="RegionID" selected="True" Alignment="Left" Width="" />
+            <Field name="RegionName" selected="True" Alignment="Left" />
+            <Field name="Covid Impact Delta" selected="True" Alignment="Right" Places="2" Width="" />
+            <Field name="5 year prior Impact Delta" selected="True" Alignment="Right" Places="2" Width="" />
+            <Field name="*Unknown" selected="True" Alignment="Right" />
+          </TableFields>
+          <TableStyles>
+            <Style Name="Data" Font="Arial" Size="8" TextColor="#000000" BackColor="#ffffff" AltColor="#f0f0f0" RowGroup="1" />
+            <Style Name="Header" Font="Arial" Size="10" TextColor="#000000" BackColor="#dbdbdb" />
+            <Style Name="Borders" Width="1" DataColor="#000000" HeaderColor="#000000" RowBorder="None" BasicColBorder="Default (Use Per Column Setting)" />
+            <Style Name="Table" CellPadding="0" ColumnPadding="0" TableBorder="true" Width="1" BorderColor="#000000" />
+          </TableStyles>
+          <StyleRules />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Basic Table</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="AlteryxPortfolioComposerTablePlugin" />
+    </Node>
+    <Node ToolID="44">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1674" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\PALASH\AppData\Local\Temp\Alteryx\Engine_30576_7dfbe43cf3a74e729c19ef1bcc13dcff_\Engine_30576_1dc554eb145ace459277631757eadad7~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="45">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.JoinMultiple.JoinMultiple">
+        <Position x="1734" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <JoinByRecPos value="True" />
+          <OutputJoinOnly value="False" />
+          <SelectConfiguration>
+            <Configuration outputConnection="Output">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Input_#3_Covid Impact Delta" selected="False" />
+                <SelectField field="Input_#3_5 year prior Impact Delta" selected="False" />
+                <SelectField field="Input_#4_Text" selected="True" rename="Input_#4_Text" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoinMultiple" />
+    </Node>
+    <Node ToolID="46">
+      <GuiSettings Plugin="PortfolioPluginsGui.ComposerLayout.PortfolioComposerLayout">
+        <Position x="1806" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <GroupingMode>PerRecord</GroupingMode>
+          <PreserveSourceFields value="False" />
+          <Orientation>V</Orientation>
+          <Separator>Continuous</Separator>
+          <Width>100%</Width>
+          <Height />
+          <BorderStyle Enabled="false" Color="#000000" Width="2" />
+          <SeparatorStyle Enabled="false" Color="#000000" Width="1" />
+          <Padding>10</Padding>
+          <LayoutFields orderChanged="True">
+            <Field name="Input_#4_Text" selected="True" Alignment="Center" />
+            <Field name="Text" selected="True" Alignment="Center" Width="" />
+            <Field name="Chart" selected="True" Alignment="Center" />
+            <Field name="Table" selected="True" Alignment="Center" />
+          </LayoutFields>
+          <MergeIntoTable value="False" />
+          <SectionNameForGroup />
+          <SectionNameForAllRecords />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Vertical Layout
+Each Individual Record</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="AlteryxPortfolioComposerLayoutPlugin" />
+    </Node>
+    <Node ToolID="47">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1890" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\PALASH\AppData\Local\Temp\Alteryx\Engine_30576_7dfbe43cf3a74e729c19ef1bcc13dcff_\Engine_30576_94e071dca73f3547ae18aa41e4b3c1e2~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="48">
+      <GuiSettings Plugin="PortfolioPluginsGui.ComposerRender.PortfolioComposerRender">
+        <Position x="1902" y="474" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFileType />
+          <OutputFile>C:\Users\PALASH\Downloads\Alteryx Projects\Real Estate market analysis\Final_Report.pdf</OutputFile>
+          <BatchMode value="False" />
+          <DataField>Layout</DataField>
+          <Separator>Continuous</Separator>
+          <EmbedDependencies value="False" />
+          <ShowHeader value="False" />
+          <ShowFooter value="False" />
+          <PdfCefOutput value="False" />
+          <PortraitMode value="True" />
+          <PaperType Width="792" Height="1224" Left="36" Right="36" Top="36" Bottom="36" />
+          <DefaultStyles>
+            <Style Name="TextStyle" FontName="Arial" FontSize="14" Justify="Left" ForeColor="#000000" Locale="1033" />
+          </DefaultStyles>
+          <PNGResolution>1</PNGResolution>
+          <PNGLargerAction>squeeze</PNGLargerAction>
+          <PNGLargerThanPageChoice>warning</PNGLargerThanPageChoice>
+          <PNGTransparentBG value="False" />
+          <PNGBackColor value="#ffffff" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="AlteryxPortfolioComposerRenderPlugin" />
+    </Node>
+    <Node ToolID="50">
+      <GuiSettings Plugin="PortfolioPluginsGui.ComposerText.PortfolioComposerText">
+        <Position x="1566" y="6" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Images />
+          <Output>Text</Output>
+          <HeaderMode value="False" />
+          <RawMode value="False" />
+          <ValidatePCXML value="True" />
+          <Message />
+          <RichTextMode value="True" />
+          <RichTextString><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+\viewkind4\uc1\pard\qc\b\fs24 Real Estate Market\b0\par
+Covid-19 Impact analysis\par
+\pard\par
+In this in-depth look at the housing and rental markets, we explored the impact of COVID-19 by comparing data from March 2020 to September 2022, with a similar period five years prior, from March 2015 to December 2019. Using statistical techniques, we calculated the percentage increase in both housing and rental values across these two time periods.\par
+By subtracting the rent increase percentage from the housing increase percentage, we were able to determine the difference, or "delta", and gain insights into how the housing market increase compared to the rental market increase in various parts of the United States. These findings provide valuable information that real estate professionals and investors can use to make informed decisions.\par
+In summary, the analysis allowed us to uncover trends and patterns that can help people better understand the relative shifts between the housing and rental markets during the COVID-19 pandemic and in the years leading up to it.\par
+}
+]]></RichTextString>
+          <Styles>
+            <Style Name="TextStyle" />
+          </Styles>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Real Estate Market
+Covid-19 Im...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="AlteryxPortfolioComposerTextPlugin" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="461" y="41" width="742" height="339" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Covid Impact</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Covid Impact</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="10">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="486" y="186" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>[Month] = "3/31/2020" OR [Month] = "9/30/2022"</Expression>
+              <Mode>Custom</Mode>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[Month] = "3/31/2020" OR [Month] = "9/30/2022"</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="11">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
+            <Position x="618" y="114" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <GroupFields>
+                <Field field="RegionID" />
+                <Field field="RegionName" />
+              </GroupFields>
+              <HeaderField field="Month" />
+              <DataField field="Avg Home Value" />
+              <Methods>
+                <Method method="Sum" />
+              </Methods>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="RegionID" size="254" source="CrossTab:Group:Sum:" type="V_String" />
+                <Field name="RegionName" size="254" source="CrossTab:Group:Sum:" type="V_String" />
+                <Field name="9_30_2022" source="CrossTab:Header:Month:9/30/2022:Sum:" type="Double" />
+                <Field name="3_31_2020" source="CrossTab:Header:Month:3/31/2020:Sum:" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCrossTab" />
+        </Node>
+        <Node ToolID="13">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
+            <Position x="606" y="234" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <GroupFields>
+                <Field field="RegionID" />
+                <Field field="RegionName" />
+              </GroupFields>
+              <HeaderField field="Month" />
+              <DataField field="Avg Rent Value" />
+              <Methods>
+                <Method method="Sum" />
+              </Methods>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="RegionID" size="254" source="CrossTab:Group:Sum:" type="V_String" />
+                <Field name="RegionName" size="254" source="CrossTab:Group:Sum:" type="V_String" />
+                <Field name="9_30_2022" source="CrossTab:Header:Month:9/30/2022:Sum:" type="Double" />
+                <Field name="3_31_2020" source="CrossTab:Header:Month:3/31/2020:Sum:" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCrossTab" />
+        </Node>
+        <Node ToolID="14">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="726" y="101" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>!IsNull([9_30_2022]) AND !IsNull([3_31_2020])</Expression>
+              <Mode>Custom</Mode>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>!IsNull([9_30_2022]) AND !IsNull([3_31_2020])</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="15">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="726" y="234" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>!IsNull([9_30_2022]) AND !IsNull([3_31_2020])</Expression>
+              <Mode>Custom</Mode>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>!IsNull([9_30_2022]) AND !IsNull([3_31_2020])</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="16">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="822" y="90" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="(([9_30_2022] - [3_31_2020])/[3_31_2020])*100" field="Home Value % change" size="1073741823" type="V_WString" enabled="true" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[Home Value % change = (([9_30_2022] - [3_31_2020])/[3_31_2020])*100
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="17">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="822" y="210" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="(([9_30_2022] - [3_31_2020])/[3_31_2020])*100" field="Rent Value % Change" size="1073741823" type="V_WString" enabled="true" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[Rent Value % Change = (([9_30_2022] - [3_31_2020])/[3_31_2020])*100
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="18">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="906" y="150" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="RegionID" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="RegionID" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Left_9_30_2022" selected="False" input="Left_" />
+                    <SelectField field="Left_3_31_2020" selected="False" input="Left_" />
+                    <SelectField field="Left_Home Value % change" selected="True" input="Left_" type="Double" size="8" />
+                    <SelectField field="Right_RegionID" selected="False" rename="Right_RegionID" input="Right_" />
+                    <SelectField field="Right_RegionName" selected="False" rename="Right_RegionName" input="Right_" />
+                    <SelectField field="Right_9_30_2022" selected="False" rename="Right_9_30_2022" input="Right_" />
+                    <SelectField field="Right_3_31_2020" selected="False" rename="Right_3_31_2020" input="Right_" />
+                    <SelectField field="Right_Rent Value % Change" selected="True" input="Right_" type="Double" size="8" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="20">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="978" y="150" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="([Home Value % change] - [Rent Value % Change])" field="Covid Impact Delta" size="1073741823" type="V_WString" enabled="true" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[Covid Impact Delta = ([Home Value % change] - [Rent Value % Change])
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="21">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+            <Position x="1098" y="150" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SortInfo locale="1033">
+                <Field field="Covid Impact Delta" order="Descending" />
+              </SortInfo>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Covid Impact Delta - Descending</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="461" y="449" width="748" height="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Covid Impact</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Covid Impact</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="23">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="486" y="594" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>[Month] = "12/31/2019" OR [Month] = "3/31/2015"</Expression>
+              <Mode>Custom</Mode>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[Month] = "12/31/2019" OR [Month] = "3/31/2015"</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="24">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
+            <Position x="618" y="522" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <GroupFields>
+                <Field field="RegionID" />
+                <Field field="RegionName" />
+              </GroupFields>
+              <HeaderField field="Month" />
+              <DataField field="Avg Home Value" />
+              <Methods>
+                <Method method="Sum" />
+              </Methods>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="RegionID" size="254" source="CrossTab:Group:Sum:" type="V_String" />
+                <Field name="RegionName" size="254" source="CrossTab:Group:Sum:" type="V_String" />
+                <Field name="3_31_2015" source="CrossTab:Header:Month:3/31/2015:Sum:" type="Double" />
+                <Field name="12_31_2019" source="CrossTab:Header:Month:12/31/2019:Sum:" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCrossTab" />
+        </Node>
+        <Node ToolID="25">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
+            <Position x="606" y="642" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <GroupFields>
+                <Field field="RegionID" />
+                <Field field="RegionName" />
+              </GroupFields>
+              <HeaderField field="Month" />
+              <DataField field="Avg Rent Value" />
+              <Methods>
+                <Method method="Sum" />
+              </Methods>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="RegionID" size="254" source="CrossTab:Group:Sum:" type="V_String" />
+                <Field name="RegionName" size="254" source="CrossTab:Group:Sum:" type="V_String" />
+                <Field name="3_31_2015" source="CrossTab:Header:Month:3/31/2015:Sum:" type="Double" />
+                <Field name="12_31_2019" source="CrossTab:Header:Month:12/31/2019:Sum:" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCrossTab" />
+        </Node>
+        <Node ToolID="26">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="726" y="510" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>!IsNull([12_31_2019]) AND !IsNull([3_31_2015])</Expression>
+              <Mode>Custom</Mode>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>!IsNull([12_31_2019]) AND !IsNull([3_31_2015])</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="27">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="726" y="642" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>!IsNull([12_31_2019]) AND !IsNull([3_31_2015])</Expression>
+              <Mode>Custom</Mode>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>!IsNull([12_31_2019]) AND !IsNull([3_31_2015])</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="28">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="822" y="498" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="(([12_31_2019] - [3_31_2015])/[3_31_2015])*100" field="Home Value % change" size="1073741823" type="V_WString" enabled="true" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[Home Value % change = (([12_31_2019] - [3_31_2015])/[3_31_2015])*100
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="29">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="822" y="630" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="(([12_31_2019] - [3_31_2015])/[3_31_2015])*100" field="Rent Value % Change" size="1073741823" type="V_WString" enabled="true" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[Rent Value % Change = (([12_31_2019] - [3_31_2015])/[3_31_2015])*100
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="30">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="906" y="570" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="RegionID" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="RegionID" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Left_3_31_2015" selected="False" input="Left_" />
+                    <SelectField field="Left_12_31_2019" selected="False" input="Left_" />
+                    <SelectField field="Left_Home Value % change" selected="True" input="Left_" type="Double" size="8" />
+                    <SelectField field="Right_RegionID" selected="False" rename="Right_RegionID" input="Right_" />
+                    <SelectField field="Right_RegionName" selected="False" rename="Right_RegionName" input="Right_" />
+                    <SelectField field="Right_3_31_2015" selected="False" rename="Right_3_31_2015" input="Right_" />
+                    <SelectField field="Right_12_31_2019" selected="False" rename="Right_12_31_2019" input="Right_" />
+                    <SelectField field="Right_Rent Value % Change" selected="True" input="Right_" type="Double" size="8" />
+                    <SelectField field="Left_9_30_2022" selected="False" input="Left_" />
+                    <SelectField field="Left_3_31_2020" selected="False" input="Left_" />
+                    <SelectField field="Right_9_30_2022" selected="False" rename="Right_9_30_2022" input="Right_" />
+                    <SelectField field="Right_3_31_2020" selected="False" rename="Right_3_31_2020" input="Right_" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="31">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="978" y="570" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="([Home Value % change] - [Rent Value % Change])" field="5 year prior Impact Delta" size="1073741823" type="V_WString" enabled="true" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[5 year prior Impact Delta = ([Home Value % change] - [Rent Value % Change])
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="32">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+            <Position x="1098" y="570" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SortInfo locale="1033">
+                <Field field="5 year prior Impact Delta" order="Descending" />
+              </SortInfo>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>5 year prior Impact Delta - Descending</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="True" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="True" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="8" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Join" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="True" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="True" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Join" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Output" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Output" />
+      <Destination ToolID="40" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Output" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="39" Connection="Output" />
+      <Destination ToolID="45" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="41" Connection="Output" />
+      <Destination ToolID="45" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="43" Connection="Output" />
+      <Destination ToolID="45" Connection="Input" />
+    </Connection>
+    <Connection name="#4">
+      <Origin ToolID="50" Connection="Output" />
+      <Destination ToolID="45" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Output" />
+      <Destination ToolID="41" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="41" Connection="Output" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="43" Connection="Output" />
+      <Destination ToolID="44" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="45" Connection="Output" />
+      <Destination ToolID="46" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="46" Connection="Output" />
+      <Destination ToolID="47" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="46" Connection="Output" />
+      <Destination ToolID="48" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="True" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="True" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="True" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="True" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="18" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="18" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Join" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="34" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Output" />
+      <Destination ToolID="34" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="True" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="True" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="True" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="True" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="30" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="30" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Join" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Covid Impact on US Real Estate Market</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="75c12f41-82bf-41f4-b3ff-5c06ceca1fae" />
+      <Telemetry>
+        <PreviousWorkflowId value="cf0ae679-a702-46e2-b34e-6504719d2a5e" />
+        <OriginWorkflowId value="a0a60b0a-33e3-4ca9-a0a5-22019a004e22" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
